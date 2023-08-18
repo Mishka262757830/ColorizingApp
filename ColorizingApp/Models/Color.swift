@@ -6,3 +6,13 @@
 //
 
 import Foundation
+
+struct Colors {
+    let redColor: CGFloat
+    let greenColor: CGFloat
+    let blueColor: CGFloat
+    
+//    var mainColor: CGFloat {
+//
+//    }
+}
