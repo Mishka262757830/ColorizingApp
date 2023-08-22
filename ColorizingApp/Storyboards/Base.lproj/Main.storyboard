@@ -17,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemMintColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="qVs-wk-87V">
                         <barButtonItem key="rightBarButtonItem" image="gearshape" catalog="system" id="WT8-ff-ihJ">
@@ -141,7 +141,7 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vlw-RD-ZTq">
-                                <rect key="frame" x="20" y="452" width="280" height="41"/>
+                                <rect key="frame" x="100" y="452" width="120" height="41"/>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="24"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Done"/>
@@ -153,19 +153,22 @@
                         <viewLayoutGuide key="safeArea" id="G4p-9L-KGv"/>
                         <color key="backgroundColor" systemColor="systemGray2Color"/>
                         <constraints>
+                            <constraint firstItem="G4p-9L-KGv" firstAttribute="trailing" secondItem="vlw-RD-ZTq" secondAttribute="trailing" constant="100" id="1nt-GN-EN2"/>
                             <constraint firstItem="B0L-dl-G1y" firstAttribute="leading" secondItem="G4p-9L-KGv" secondAttribute="leading" constant="20" id="NRg-7g-Xml"/>
+                            <constraint firstItem="vlw-RD-ZTq" firstAttribute="leading" secondItem="G4p-9L-KGv" secondAttribute="leading" constant="100" id="Sjl-tD-NhX"/>
                             <constraint firstItem="G4p-9L-KGv" firstAttribute="trailing" secondItem="vaK-0N-z1X" secondAttribute="trailing" constant="20" id="b8u-kb-Ed2"/>
                             <constraint firstItem="vaK-0N-z1X" firstAttribute="top" secondItem="B0L-dl-G1y" secondAttribute="bottom" constant="45" id="g1B-5W-lOE"/>
                             <constraint firstItem="vaK-0N-z1X" firstAttribute="leading" secondItem="G4p-9L-KGv" secondAttribute="leading" constant="20" id="kFm-gc-XJl"/>
                             <constraint firstItem="G4p-9L-KGv" firstAttribute="bottom" secondItem="vlw-RD-ZTq" secondAttribute="bottom" constant="75" id="npe-zP-lGX"/>
-                            <constraint firstItem="G4p-9L-KGv" firstAttribute="trailing" secondItem="vlw-RD-ZTq" secondAttribute="trailing" constant="20" id="tZX-lf-bXe"/>
-                            <constraint firstItem="vlw-RD-ZTq" firstAttribute="leading" secondItem="G4p-9L-KGv" secondAttribute="leading" constant="20" id="w4j-7m-o8I"/>
                             <constraint firstItem="B0L-dl-G1y" firstAttribute="top" secondItem="G4p-9L-KGv" secondAttribute="top" constant="60" id="zf5-4M-EjA"/>
                             <constraint firstItem="G4p-9L-KGv" firstAttribute="trailing" secondItem="B0L-dl-G1y" secondAttribute="trailing" constant="20" id="zfb-C8-iJ4"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="blueSlider" destination="qRH-lr-N5m" id="zNL-JS-Giu"/>
                         <outlet property="colorView" destination="B0L-dl-G1y" id="bk9-LK-TtF"/>
+                        <outlet property="greenSlider" destination="ErR-oR-eFl" id="YUr-hG-bKV"/>
+                        <outlet property="redSlider" destination="tQt-za-aKG" id="iFd-bB-0e5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MWk-0Q-mRa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -198,6 +201,9 @@
         </systemColor>
         <systemColor name="systemGray2Color">
             <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemMintColor">
+            <color red="0.0" green="0.7803921568627451" blue="0.74509803921568629" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

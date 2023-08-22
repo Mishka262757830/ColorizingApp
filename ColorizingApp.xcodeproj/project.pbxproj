@@ -13,7 +13,6 @@
 		D673F1FE2A8FE6D7006AE8B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D673F1FC2A8FE6D7006AE8B6 /* Main.storyboard */; };
 		D673F2002A8FE6D9006AE8B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D673F1FF2A8FE6D9006AE8B6 /* Assets.xcassets */; };
 		D673F2032A8FE6D9006AE8B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D673F2012A8FE6D9006AE8B6 /* LaunchScreen.storyboard */; };
-		D673F20E2A8FE762006AE8B6 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = D673F20D2A8FE762006AE8B6 /* Color.swift */; };
 		D673F2122A8FF85D006AE8B6 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D673F2112A8FF85D006AE8B6 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -26,7 +25,6 @@
 		D673F1FF2A8FE6D9006AE8B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D673F2022A8FE6D9006AE8B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D673F2042A8FE6D9006AE8B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D673F20D2A8FE762006AE8B6 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		D673F2112A8FF85D006AE8B6 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -61,7 +59,6 @@
 			isa = PBXGroup;
 			children = (
 				D673F20C2A8FE744006AE8B6 /* ViewControllers */,
-				D673F20F2A8FE767006AE8B6 /* Models */,
 				D673F20A2A8FE71E006AE8B6 /* Storyboards */,
 				D673F2102A8FE776006AE8B6 /* App */,
 				D673F20B2A8FE734006AE8B6 /* Resources */,
@@ -93,14 +90,6 @@
 				D673F2112A8FF85D006AE8B6 /* SettingsViewController.swift */,
 			);
 			path = ViewControllers;
-			sourceTree = "<group>";
-		};
-		D673F20F2A8FE767006AE8B6 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				D673F20D2A8FE762006AE8B6 /* Color.swift */,
-			);
-			path = Models;
 			sourceTree = "<group>";
 		};
 		D673F2102A8FE776006AE8B6 /* App */ = {
@@ -185,7 +174,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D673F1FB2A8FE6D7006AE8B6 /* MainViewController.swift in Sources */,
-				D673F20E2A8FE762006AE8B6 /* Color.swift in Sources */,
 				D673F1F72A8FE6D7006AE8B6 /* AppDelegate.swift in Sources */,
 				D673F2122A8FF85D006AE8B6 /* SettingsViewController.swift in Sources */,
 				D673F1F92A8FE6D7006AE8B6 /* SceneDelegate.swift in Sources */,
